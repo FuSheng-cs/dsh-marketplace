@@ -1,6 +1,6 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-10-12T07:06:49.215Z",
+  "generatedAt": "2026-10-12T23:27:00.060Z",
   "count": 8,
   "plugins": [
     {
@@ -124,7 +124,7 @@
     {
       "id": "dsh-trae-relay",
       "name": "TRAE CN Relay",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "description": "TRAE CN relay and embedded console with daily check-in, multiple accounts, rotation, model discovery, reasoning levels and visibility controls. Automation is off by default; account/service permission is required. See the repository disclaimer.",
       "descriptionZh": "TRAE CN 反代与内嵌控制台，支持自动签到、多账号管理和轮询、模型发现、思考档位及模型显示/隐藏。自动签到与轮询默认关闭；仅限有权使用且服务方允许的账号与功能，详见仓库免责声明。",
       "author": {
@@ -149,8 +149,8 @@
       },
       "install": {
         "target": "git",
-        "spec": "github:FuSheng-cs/dsh-trae-relay#v1.2.1",
-        "command": "dsh plugin --profile {profile} add github:FuSheng-cs/dsh-trae-relay#v1.2.1"
+        "spec": "github:FuSheng-cs/dsh-trae-relay#v1.2.2",
+        "command": "dsh plugin --profile {profile} add github:FuSheng-cs/dsh-trae-relay#v1.2.2"
       },
       "verified": false,
       "maintainers": [
@@ -159,10 +159,10 @@
       "repository": "https://github.com/FuSheng-cs/dsh-trae-relay",
       "docs": "https://github.com/FuSheng-cs/dsh-trae-relay#readme",
       "screenshots": [
-        "https://github.com/FuSheng-cs/dsh-trae-relay/raw/v1.2.1/assets/embedded-console.png",
-        "https://github.com/FuSheng-cs/dsh-trae-relay/raw/v1.2.1/assets/model-catalog.png"
+        "https://github.com/FuSheng-cs/dsh-trae-relay/raw/v1.2.2/assets/embedded-console.png",
+        "https://github.com/FuSheng-cs/dsh-trae-relay/raw/v1.2.2/assets/model-catalog.png"
       ],
-      "disclaimer": "https://github.com/FuSheng-cs/dsh-trae-relay/blob/v1.2.1/DISCLAIMER.md"
+      "disclaimer": "https://github.com/FuSheng-cs/dsh-trae-relay/blob/v1.2.2/DISCLAIMER.md"
     },
     {
       "id": "dsh-web-ui",
